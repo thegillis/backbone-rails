@@ -48,6 +48,9 @@ module Dummy
 
     # Enable the asset pipeline
     config.assets.enabled = true
+
+    # In sprokets 3 app.assets is not defined unless compiling assets
+    config.assets.compile = true
   end
 end
 
